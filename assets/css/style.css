@@ -14,16 +14,16 @@ h1 {
     text-align: center;
     font-size: 50px;
     letter-spacing: 5px;
-    ;
+    text-shadow: 2px 2px 5px #F48647;
 }
 
 /* game area */
 
 #game-area {
-    background-color: darkgoldenrod;
+    background-color: #D8BF69;
     border-radius: 25px;
     height: 600px;
-    width: 75%;
+    width: 60%;
     margin: auto;
 }
 
@@ -34,7 +34,32 @@ h1 {
     align-items: center;
     gap: 15px;
 }
+
+i {
+    font-size: 75px;
+}
+
+i > p {
+    font-size: 25px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+
 /* game information area */
 
 
+/* footer */
 
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+footer > div {
+    line-height: 75px;
+    width: 100%;
+    overflow: hidden;
+}
