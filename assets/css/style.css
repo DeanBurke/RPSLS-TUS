@@ -14,7 +14,7 @@ h1 {
     text-align: center;
     font-size: 50px;
     letter-spacing: 5px;
-    text-shadow: 2px 2px 5px #F48647;
+    text-shadow: 2px 2px 5px #D8BF69;
 }
 
 /* game area */
@@ -50,6 +50,12 @@ button {
 
 /* game information area */
 
+#game-info {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    font-size: 20px;
+}
 
 /* footer */
 
