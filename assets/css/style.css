@@ -1,6 +1,8 @@
 body {
     background-color: transparent;
     font-family: "Anton", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* heading */
@@ -41,7 +43,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
+}
+
+#buttons > button:hover {
+    background-color: #80b2fe;
 }
 
 i {
@@ -54,7 +60,14 @@ i > p {
 
 button {
     border-radius: 5px;
+    width: 200px;
 }
+
+#buttons > button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 
 /* game information area */
@@ -62,9 +75,10 @@ button {
 #game-info {
     display: flex;
     justify-content: center;
+    padding-top: 25px;
     gap: 5%;
     font-size: 20px;
-    height: 600px;
+    height: 400px;
 }
 
 /* footer */
