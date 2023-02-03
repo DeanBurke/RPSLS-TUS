@@ -1,9 +1,11 @@
 body {
-    background-color: white;
+    background-color: transparent;
     font-family: "Anton", sans-serif;
 }
 
 /* heading */
+
+
 
 header {
     width: 100%;
@@ -17,6 +19,12 @@ h1 {
     text-shadow: 2px 2px 5px #D8BF69;
 }
 
+#logo {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
 /* game area */
 
 #game-area {
@@ -25,6 +33,7 @@ h1 {
     height: 600px;
     width: 60%;
     margin: auto;
+    box-shadow: 5px 10px 18px #80b2fe;
 }
 
 #buttons {
@@ -55,19 +64,34 @@ button {
     justify-content: center;
     gap: 5%;
     font-size: 20px;
+    height: 600px;
 }
 
 /* footer */
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
 footer > div {
     line-height: 50px;
     overflow: hidden;
     text-align: center;
     background-color: #D8BF69;
+    border-top: 2px solid;
+    border-color: black;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/* keyframes */
+
+@keyframes spin {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}   
+}
+
+#logo {
+    animation: spin 3s;
 }
