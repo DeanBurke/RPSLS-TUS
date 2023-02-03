@@ -133,6 +133,11 @@ footer a {
   .win {
     color: #3e8e41;
   }
+
+  #rules > button {
+    border-radius: 5px;
+    width: 200px;
+}
   
   /* Add Animation */
   @-webkit-keyframes animatetop {
@@ -195,4 +200,172 @@ footer a {
 
 #logo {
     animation: spin 3s;
+}
+
+/* media queries */
+
+/* for larger screens from 1950px wide and down */
+@media screen and (max-width: 1950px) {
+    
+    i {
+        font-size: 60px;
+        height: 150px;
+    }
+    
+    i > p {
+        font-size: 20px;
+    }
+    
+    #buttons > button {
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+
+/* for large to medium screens from 1550px wide and down */
+@media screen and (max-width: 1550px) {
+
+    #game-area {
+        width: 70%;
+    }
+
+}
+
+/* for medium screens from 1250px wide and down */
+@media screen and (max-width: 1250px) {
+
+    #game-area {
+        width: 60%;
+    }
+
+    #buttons {
+        flex-wrap: wrap;
+        gap: 5px 50px;
+    }
+
+}
+
+/* for medium screens from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    i {
+        font-size: 50px;
+        height: 125px;
+    }
+    
+    i > p {
+        font-size: 15px;
+    }
+    
+    #buttons > button {
+        width: 125px;
+        height: 125px;
+    }
+
+}
+
+/* for small screens from 800px wide and down */
+@media screen and (max-width: 800px) {
+
+    #game-area {
+        width: 75%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    i {
+        font-size: 50px;
+        height: 125px;
+    }
+    
+    i > p {
+        font-size: 15px;
+    }
+    
+    #buttons > button {
+        width: 125px;
+        height: 125px;
+    }
+
+    #buttons {
+        gap: 5px 35px;
+    }
+
+    header {
+        line-height: 60px;
+    }
+
+}
+
+/* for small screens from 550px wide and down */
+@media screen and (max-width: 550px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    i {
+        font-size: 40px;
+        height: 120px;
+    }
+    
+    i > p {
+        font-size: 15px;
+    }
+    
+    #buttons > button {
+        width: 115px;
+        height: 115px;
+    }
+
+    #buttons {
+        gap: 1px 30px;
+    }
+
+    #game-info {
+        font-size: 15px;
+    }
+
+    #rules > button {
+        width: 110px;
+    }
+
+}
+
+/* for small screens from 400px wide and down */
+@media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    i {
+        height: 100px;
+    }
+    
+    #buttons > button {
+        width: 100px;
+        height: 100px;
+    }
+
+    #buttons {
+        gap: 1px 25px;
+    }
+
+    #game-info {
+        font-size: 15px;
+    }
+
+    #game-area {
+        height: 500px;
+        width: 85%;
+    }
+
 }
