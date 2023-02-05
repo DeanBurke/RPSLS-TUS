@@ -40,13 +40,10 @@ const answers = {
   }
 };
 
-
-
 /**
  * Getting the player's choice and the computer's 
  * choice, to determine the winner or if it's a draw
  */
-
 
 // Setting the player's choice
 function playerChoice(input) {
@@ -57,11 +54,11 @@ function playerChoice(input) {
   const computerChoice = handOptions[randomNumber];
 
   if (answers[computerChoice][input] === 'win') {
-    alert(`You picked ${input}, the computer chose ${computerChoice}. You win!`);
+    alert(`You win!! You picked ${input}, the computer chose ${computerChoice}.`);
     incrementScore();
     
   } else if (answers[computerChoice][input] === 'lose') {
-    alert(`Uh oh, You picked ${input}, the computer chose ${computerChoice}. You lose!`);
+    alert(`Uh oh, unfortunately you lose!! You picked ${input}, the computer chose ${computerChoice}.`);
     loseLife();
     
   } else {
@@ -136,5 +133,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-
