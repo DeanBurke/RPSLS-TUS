@@ -40,7 +40,30 @@ const answers = {
   }
 };
 
+/**
+ * Getting the player's choice and the computer's 
+ * choice, to determine the winner or if it's a draw
+ */
 
+
+// Setting the player's choice
+function playerChoice(input) {
+  const handOptions = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
+
+  // Setting the computer's choice using Math.random
+  const randomNumber = Math.floor(Math.random() * 5);
+  const computerChoice = handOptions[randomNumber];
+
+  if (answers[computerChoice][input] === 'win') {
+    alert(`You picked ${input}, the computer choce ${computerChoice}. You win!`);
+    
+  } else if (answers[computerChoice][input] === 'lose') {
+    alert(`Uh oh, You picked ${input}, the computer choce ${computerChoice}. You lose!`);
+    
+  } else {
+    alert(`It's a draw!! You picked both chose ${input}`);
+  }
+}
 
 // Get the modal
 var modal = document.getElementById("myModal");
