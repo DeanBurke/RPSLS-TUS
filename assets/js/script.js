@@ -56,14 +56,38 @@ function playerChoice(input) {
 
   if (answers[computerChoice][input] === 'win') {
     alert(`You picked ${input}, the computer choce ${computerChoice}. You win!`);
+    incrementScore();
     
   } else if (answers[computerChoice][input] === 'lose') {
     alert(`Uh oh, You picked ${input}, the computer choce ${computerChoice}. You lose!`);
+    loseLife();
     
   } else {
     alert(`It's a draw!! You picked both chose ${input}`);
   }
 }
+
+/**
+ * Gets the current score from the DOM and increments it by 1
+ */
+function incrementScore() {
+
+  let oldScore = parseInt(document.getElementById("score").innerText);
+  document.getElementById("score").innerText = ++oldScore;
+
+}
+
+/**
+ * Gets the player's current score from the DOM and lowers it by 1
+ */
+function loseLife() {
+
+  let oldLifeCount = parseInt(document.getElementById("lives").innerText);
+  document.getElementById("lives").innerText = --oldLifeCount;
+
+}
+
+
 
 // Get the modal
 var modal = document.getElementById("myModal");
