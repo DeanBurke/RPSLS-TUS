@@ -1,3 +1,45 @@
+/**
+ * Setting up available answers for the user
+ */
+
+const answers = {
+  Rock: {
+    Rock: 'draw',
+    Paper: 'win',
+    Scissors: 'lose',
+    Lizard: 'lose',
+    Spock: 'win',
+  },
+  Paper: {
+    Rock: 'lose',
+    Paper: 'draw',
+    Scissors: 'win',
+    Lizard: 'win',
+    Spock: 'lose',
+  },
+  Scissors: {
+    Rock: 'win',
+    Paper: 'lose',
+    Scissors: 'draw',
+    Lizard: 'lose',
+    Spock: 'win',
+  },
+  Lizard: {
+    Rock: 'win',
+    Paper: 'lose',
+    Scissors: 'win',
+    Lizard: 'draw',
+    Spock: 'lose',
+  },
+  Spock: {
+    Rock: 'lose',
+    Paper: 'win',
+    Scissors: 'lose',
+    Lizard: 'win',
+    Spock: 'draw',
+  }
+};
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -23,3 +65,5 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
