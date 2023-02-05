@@ -1,5 +1,5 @@
 /**
- * Setting up available answers for the user
+ * Setting up available answers for the game
  */
 
 const answers = {
@@ -40,6 +40,8 @@ const answers = {
   }
 };
 
+
+
 /**
  * Getting the player's choice and the computer's 
  * choice, to determine the winner or if it's a draw
@@ -55,38 +57,58 @@ function playerChoice(input) {
   const computerChoice = handOptions[randomNumber];
 
   if (answers[computerChoice][input] === 'win') {
-    alert(`You picked ${input}, the computer choce ${computerChoice}. You win!`);
+    alert(`You picked ${input}, the computer chose ${computerChoice}. You win!`);
     incrementScore();
     
   } else if (answers[computerChoice][input] === 'lose') {
-    alert(`Uh oh, You picked ${input}, the computer choce ${computerChoice}. You lose!`);
+    alert(`Uh oh, You picked ${input}, the computer chose ${computerChoice}. You lose!`);
     loseLife();
     
   } else {
     alert(`It's a draw!! You picked both chose ${input}`);
   }
+
+  if (currentLifeCount < 1) {
+    alert(`You've ran out of lives! Feel free to start again to try and beat your score!`);
+    resetGame(0, 5);
+  } 
+  
 }
+
+
+let currentScore = parseInt(document.getElementById("score").innerText);
+let currentLifeCount = parseInt(document.getElementById("lives").innerText);
+
 
 /**
  * Gets the current score from the DOM and increments it by 1
  */
+
 function incrementScore() {
-
-  let oldScore = parseInt(document.getElementById("score").innerText);
-  document.getElementById("score").innerText = ++oldScore;
-
+  document.getElementById("score").innerText = ++currentScore;
 }
 
 /**
- * Gets the player's current score from the DOM and lowers it by 1
+ * Gets the player's current life count from the DOM and lowers it by 1
  */
+
+
 function loseLife() {
-
-  let oldLifeCount = parseInt(document.getElementById("lives").innerText);
-  document.getElementById("lives").innerText = --oldLifeCount;
-
+  document.getElementById("lives").innerText = --currentLifeCount;
 }
 
+/**
+ * Restart game and set score back to nil
+ * and lives to 5
+ */
+
+function resetGame(resetScore, resetLifeCount) {
+  document.getElementById("score").innerText = resetScore;
+  document.getElementById("lives").innerText = resetLifeCount;
+
+  currentScore = resetScore;
+  currentLifeCount = resetLifeCount;
+}
 
 
 // Get the modal
