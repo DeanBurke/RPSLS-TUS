@@ -45,11 +45,19 @@ Colour palette was created using:
 
 # Features
 
+## Favicon
+
+A favicon was implented with the logo used for the website, this was created with [Favicon.io](https://favicon.io/)
+
+  ![Screenshot of favicon](./assets/images/favicon.jpg)
+
 ## Header with logo
 
 Featured at the top page, the name of the website along with a logo, that rotates on load up. 
 
   ![Screenshot of header with logo](./assets/images/header-with-logo.jpg)
+
+<br>
 
 ## Game Area
 
@@ -61,6 +69,8 @@ Featured at the top page, the name of the website along with a logo, that rotate
 * Each button was given styling to let the user know which button they were hovering over. Along with a change of color when the user select the hand they are going to play that round. 
 
   ![Screenshot of button hover and select](./assets/images/button-hover-select.jpg)
+
+<br>
 
 ## Game Information Area
 
@@ -74,6 +84,8 @@ The game information area is located just beneath the game itself. Which itself 
 
   ![Screenshot of rules button](./assets/images/rules-button.jpg)
   ![Screenshot of rules popup](./assets/images/rules-popup.jpg)
+
+<br>
 
 ## Gameplay
 
@@ -91,6 +103,24 @@ The game information area is located just beneath the game itself. Which itself 
   ![Screenshot of life count decrease](./assets/images/lives-loss.jpg)
 
 * If the user and the computer select the same hand gesture then the result of the round is a draw and you go again!
+
+  ![Screenshot of alert draw](./assets/images/alert-draw.jpg)
+
+* Like everything, you're luck must run out at some point! When the user's life count hits zero, they will get an alert informing them and encouragement to try again and beat their score!
+
+  ![Screenshot of game reset](./assets/images/alert-reset.jpg)
+
+<br>
+
+## Footer
+
+*  The footer of the website is designed to be minimalistic and includes a clickable link for my LinkedIn page under 'Dean Burke'.
+
+  ![Screenshot of footer](./assets/images/footer.jpg)
+
+ 
+
+
 
 
 
