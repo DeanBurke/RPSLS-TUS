@@ -32,3 +32,17 @@ Neutral colours were chosen when considering the color palette to keep it user f
 Colour palette was created using:
 
 * [Colormind](http://colormind.io/)
+
+ ![Screenshot of colour palette done on colormind.io](./assets/images/color-scheme.jpg)
+
+ ## Typography
+
+ Anton was chosen from [Google Fonts](https://fonts.google.com/), this was with idea of imitating the Impact font on 'The Big Bang Theory' logo.
+
+  ![Screenshot of Anton font from Google fonts](./assets/images/typography-anton.jpg.jpg)
+
+  <br>
+
+
+
+
