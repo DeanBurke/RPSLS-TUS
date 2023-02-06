@@ -62,7 +62,7 @@ function playerChoice(input) {
     loseLife();
     
   } else {
-    alert(`It's a draw!! You picked both chose ${input}`);
+    alert(`It's a draw!! You both chose ${input}`);
   }
 
   if (currentLifeCount < 1) {

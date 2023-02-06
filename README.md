@@ -62,6 +62,38 @@ Featured at the top page, the name of the website along with a logo, that rotate
 
   ![Screenshot of button hover and select](./assets/images/button-hover-select.jpg)
 
+## Game Information Area
+
+The game information area is located just beneath the game itself. Which itself has multiple features. 
+
+* Located on the left and center is the user's current score and life count. 
+
+  ![Screenshot of user score and lives](./assets/images/score-lives.jpg)
+
+* Located on the right is the rules button, which deploys a pop up model of all the information the user need to understand and get straight into some games.
+
+  ![Screenshot of rules button](./assets/images/rules-button.jpg)
+  ![Screenshot of rules popup](./assets/images/rules-popup.jpg)
+
+## Gameplay
+
+* The game starts as soon as the user selects their first hand gesture, the computer will then randomly choose their selection and a winner is determined.
+* If the user wins, they will get an alert notification on their victory (along with letting you know what the computer's choice was) and the score will increase by 1, as pictured below. 
+
+  ![Screenshot of alert win](./assets/images/alert-win.jpg)
+
+  ![Screenshot of score increase](./assets/images/score-win.jpg)
+
+* If the user loses, they will get an alert notification of their loss (along with letting you know what the computer's choice was) and the user's life count will decrease by one, as pictured below. 
+
+  ![Screenshot of alert loss](./assets/images/alert-loss.jpg)
+
+  ![Screenshot of life count decrease](./assets/images/lives-loss.jpg)
+
+* If the user and the computer select the same hand gesture then the result of the round is a draw and you go again!
+
+
+
 
 
 
