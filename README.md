@@ -4,7 +4,7 @@
 
 ![Screeshot of the site on Am I repsonsive](./assets/images/am-i-responsive.jpg)
 
-Welcome to RPSLS - The Ultimate Showdown, the premiew online destination for all things Rock-Paper-Scissors-Lizard-Spock. Our website is dedicated to the classic hand gesture game that has entertained millions around the world.
+Welcome to RPSLS - The Ultimate Showdown, the premium online destination for all things Rock-Paper-Scissors-Lizard-Spock. Our website is dedicated to the classic hand gesture game that has entertained millions around the world.
 
 With easy-to-use rules, RPSLS offers a fresh take on the game you love! So what are you waiting for? Join us now for the ultimate showdown!
 
