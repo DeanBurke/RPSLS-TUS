@@ -168,6 +168,37 @@ The game information area is located just beneath the game itself. Which itself 
 
 No unfixed bugs.
 
+<br>
+
+# Validating Testing
+
+* HTML
+    * No errors were returned when running my final test of [W3C Validator](https://validator.w3.org/#validate_by_input)
+* CSS
+    * No errors were returned when running my final test of [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+* JavaScript
+    * No errors were returned when running my final test of [JSHint](https://jshint.com/), The following warnings appeared, all relating to variations of  **'(use 'esversion: 6') or Mozilla JS extensions (use moz)'** <br>
+    ![Screenshot of JSHint results](./assets/images/jshint-results.jpg) 
+* Accessibility
+    * Using lighthouse in Chrome Dev Tools, I confirmed that colors and fonts were readable against backgrounds. Along with Meta description and keywords added <br>
+     ![Screenshot of Lighthouse results](./assets/images/lighthouse-results.jpg)
+
+<br>
+
+# Deployment
+
+The site was deployed to GitHub pages. The following steps were used:
+
+* Go to respositiory
+* Click the Settings tab
+* On the left hand column, click Pages under code and automation
+* Under build and deployment, in the source box, ensure the 'Deploy from a branch' is selected.
+* Then select main under the branch and click save <br>
+![Screenshot of Deployment Build and Deployment section](./assets/images/deployment.jpg)
+* It may take a few minutes, but when the page has been created you will see the following message. <br>
+![Screenshot of Deployment live](./assets/images/deployment-live.jpg)
+
+<br>
 
 
 
