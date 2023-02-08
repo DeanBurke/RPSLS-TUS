@@ -54,13 +54,11 @@ i {
     font-size: 75px;
 }
 
-i > p {
-    font-size: 25px;
-}
-
 button {
     border-radius: 5px;
     width: 200px;
+    font-size: 25px;   
+    font-family: "Anton", sans-serif;
 }
 
 #buttons > button:active {
@@ -209,18 +207,13 @@ footer a {
     
     i {
         font-size: 60px;
-        height: 150px;
-    }
-    
-    i > p {
-        font-size: 20px;
     }
     
     #buttons > button {
         width: 150px;
         height: 150px;
     }
-    
+
 }
 
 /* for large to medium screens from 1550px wide and down */
@@ -260,16 +253,12 @@ footer a {
 
     i {
         font-size: 50px;
-        height: 125px;
-    }
-    
-    i > p {
-        font-size: 15px;
     }
     
     #buttons > button {
         width: 135px;
         height: 135px;
+        font-size: 20px;
     }
 
 }
@@ -305,11 +294,6 @@ footer a {
 
     i {
         font-size: 40px;
-        height: 120px;
-    }
-    
-    i > p {
-        font-size: 15px;
     }
     
     #buttons > button {
@@ -341,10 +325,6 @@ footer a {
     #logo {
         height: 25px;
         width: 25px;
-    }
-
-    i {
-        height: 100px;
     }
     
     #buttons > button {
