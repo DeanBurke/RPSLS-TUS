@@ -118,7 +118,35 @@ The game information area is located just beneath the game itself. Which itself 
 
   ![Screenshot of footer](./assets/images/footer.jpg)
 
+
+## Future Features
  
+ * High score counter
+ * Computer AI - If the user continues to choose the same hand gesture(or chooses it 4 times out of 5 etc), the computer recognizes this and will adjust their move.
+
+ <br>
+
+ # Testing
+
+ There was a number of different tests done to ensure that the website was working as it should:
+
+* The website was tested on a number of different browsers:
+    * Windows
+        * Firefox on Windows 10 Pro
+        * Chrome on Windows 10 Pro
+    * Android
+        * Chrome OnePlus 10
+        * Chrome Samsung Galaxy S22
+    * Apple iOS
+        * Safari iPhone SE
+* All features were tested as they were implemented such as spinning logo, pop out modal for rules section and then as each part of the game itself was created in JavaScript.
+* Once I had worked on the responsiveness of the website the layout of both pages were tested in Google Dev Tools, on a 26 inch laptop screen, on a Samsung Galaxy Tab S8 (11 inch display) and on a OnePlus 10.
+* I used both [W3C Validator](https://validator.w3.org/#validate_by_input) and [Jigsaw Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to test my code to check for mistakes or errors.
+* I used lighthouse to improve accessibility and perfomance.
+* I used [JSHint](https://jshint.com/) to check my JavaScript code and to check for warnings or game breaking errors.
+
+
+
 
 
 
