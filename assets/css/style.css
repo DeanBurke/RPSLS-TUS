@@ -59,6 +59,7 @@ button {
     width: 200px;
     font-size: 25px;   
     font-family: "Anton", sans-serif;
+    cursor: pointer;
 }
 
 #buttons > button:active {
