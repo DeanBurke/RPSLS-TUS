@@ -145,7 +145,28 @@ The game information area is located just beneath the game itself. Which itself 
 * I used lighthouse to improve accessibility and perfomance.
 * I used [JSHint](https://jshint.com/) to check my JavaScript code and to check for warnings or game breaking errors.
 
+<br>
 
+## Bugs
+
+**Solved Bugs**
+
+* When deploying my website, I realized the spinning logo was not showing, resulting in the ALT text displaying.
+  * When looking at my code in my index.html file it was incorrectly showing the below.
+  
+    ![Screenshot of logo bug](./assets/images/logo-bug.jpg)
+  * I had incorrectly place a slash at the start so it wasn't reading the directory on GitHub.
+* When testing my code on [W3C Validator](https://validator.w3.org/#validate_by_input), I realized I had incorrectly play `<p>` tags inside of my `<i>` 
+  * I adjuested this throughout my code in the Game Area, and then subsequently adjusted all the relevant CSS code.
+* When initially creating my answers object in JavaScript code, as seen below.
+
+  ![Screenshot of answers bug](./assets/images/js-answers-bug.jpg)
+
+  * I incorrectly forgot to place commas, after each individual errors, thus incurring errors when I got further into my coding fo the game.
+
+**Unfixed Bugs**
+
+No unfixed bugs.
 
 
 
