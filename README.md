@@ -200,6 +200,15 @@ The site was deployed to GitHub pages. The following steps were used:
 
 <br>
 
+# Credits
+
+* I used code I had learned from the love math project.
+* I used [W3 Schools](https://www.w3schools.com/) for help with regards to the pop up modal for my rules, adding a button pressed animation and the spinning logo image.
+    * This [article](https://www.w3schools.com/howto/howto_css_modals.asp#gsc.tab=0) for help with my rules popup.
+    * This [article](https://www.w3schools.com/css/css3_buttons.asp) for help with the button pressed animation.
+    * This [article](https://www.w3schools.com/css/css3_animations.asp) for help with the spinning logo animation.
+* I also used the following [YouTube](https://www.w3schools.com/) video for additional help with the spining logo animation.
+    * This [video](https://www.youtube.com/watch?v=IcnonhBM-SE) from Code Boxx
 
 
 
